@@ -1,0 +1,13 @@
+package main;
+
+import java.io.IOException;
+
+public class Teste {
+
+	public static void main(String[] args) throws IOException {
+		AsciiArt teste = new AsciiArt();
+		teste.carregaImagemRaw("fred");
+		teste.visualizaImagem();
+	}
+
+}

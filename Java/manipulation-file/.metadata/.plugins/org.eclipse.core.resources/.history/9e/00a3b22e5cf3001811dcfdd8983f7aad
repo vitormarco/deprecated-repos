@@ -1,0 +1,18 @@
+package main;
+
+import java.io.IOException;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		AsciiArt teste = new AsciiArt();
+		try {
+			teste.carregaImagemRaw("fred");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

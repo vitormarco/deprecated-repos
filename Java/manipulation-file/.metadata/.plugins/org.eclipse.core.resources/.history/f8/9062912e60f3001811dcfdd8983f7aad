@@ -1,0 +1,15 @@
+package main;
+
+public class Runs {
+	private char simbolo;
+	private int comprimento;
+	
+	public char getSimbolo() {
+		return simbolo;
+	}
+	public void setSimbolo(char simbolo) {
+		this.simbolo = simbolo;
+	}
+	
+	
+}

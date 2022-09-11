@@ -1,0 +1,10 @@
+#dash {
+    .my-btn {
+        display: block;
+        color: #fff;
+
+        &:hover {
+            text-decoration: none
+        }
+    }
+}

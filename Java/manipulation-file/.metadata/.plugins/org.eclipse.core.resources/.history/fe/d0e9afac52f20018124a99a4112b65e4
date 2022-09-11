@@ -1,0 +1,6 @@
+package main;
+
+public class Runs {
+	private char simbolo;
+	private int comprimento;
+}
